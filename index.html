@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="box">
+        <h2>Sign in</h2>
+        <p>Need an account? <a href="#"> Sign up</a></p>
+        <div class="social-buttons">
+          <button class="google-btn">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+            />
+            Use Google
+          </button>
+          <button class="apple-btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/0/747.png" />
+            Use Apple
+          </button>
+        </div>
+        <div class="divider"><span>OR</span></div>
+
+        <form>
+          <label>Email</label>
+          <input type="email" placeholder="email@email.com" required />
+
+          <label
+            >Password <a href="#" class="forgot">Forgot Password?</a></label
+          >
+          <input type="password" placeholder="Enter Password" required />
+
+          <div class="checkbox-container">
+            <input type="checkbox" id="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+
+          <button type="submit" class="signin-btn">Sign In</button>
+        </div>
+        </form>
+      </div>
+      <div class="image-container">
+        <div class="image-text">
+          <img src="./mini-logo 1.svg" class="img-class" width="50px" height="30px" />
+          <h3>Secure Access Portal</h3>
+          <p>
+            A robust authentication gateway ensuring secure<b>
+              efficient user access</b
+            >to the metronic dashboard interface.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
